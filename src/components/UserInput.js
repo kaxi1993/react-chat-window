@@ -114,7 +114,7 @@ class UserInput extends Component {
     }
     return (
       <div className="sc-user-input--button">
-        <FileIcon onClick={this._showFilePicker.bind(this)} />
+        {/* <FileIcon onClick={this._showFilePicker.bind(this)} /> */}
         <input
           type="file"
           name="files[]"
