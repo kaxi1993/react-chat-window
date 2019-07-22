@@ -56,7 +56,7 @@ class Launcher extends Component {
           messageList={this.props.messageList}
           onUserInputSubmit={this.props.onMessageWasSent}
           onFilesSelected={this.props.onFilesSelected}
-          onCarouselClicked={this.props.onCarouselClicked}
+          onCarouselClick={this.props.onCarouselClick}
           agentProfile={this.props.agentProfile}
           isOpen={isOpen}
           onClose={this.handleClick.bind(this)}

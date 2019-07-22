@@ -19,7 +19,7 @@ class Message extends Component {
       case 'file':
         return <FileMessage {...this.props.message} />
       case 'carousel':
-        return <CarouselMessage {...this.props.message} onCarouselClicked={this.props.onCarouselClicked} />
+        return <CarouselMessage {...this.props.message} onCarouselClick={this.props.onCarouselClick} />
       default:
         console.error(`Attempting to load message with unsupported file type '${type}'`)
     }

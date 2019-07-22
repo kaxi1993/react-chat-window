@@ -14,7 +14,7 @@ class CarouselItem extends Component {
     const { title, subtitle, url, buttons } = this.props
 
     const buttonTags = buttons.map(({ text, payload }, i) => {
-      return <button className='sc-carousel--action' onClick={this.props.onCarouselClicked} data-payload={payload} key={i}> {text} </button>
+      return <button className='sc-carousel--action' onClick={this.props.onCarouselClick} data-payload={payload} key={i}> {text} </button>
     })
 
     return (

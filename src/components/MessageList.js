@@ -12,7 +12,7 @@ class MessageList extends Component {
     return (
       <div className="sc-message-list" ref={el => this.scrollList = el}>
         {this.props.messages.map((message, i) => {
-          return <Message message={message} onCarouselClicked={this.props.onCarouselClicked} key={i} />
+          return <Message message={message} onCarouselClick={this.props.onCarouselClick} key={i} />
         })}
         {this.props.typing && <Typing />}
       </div>)
