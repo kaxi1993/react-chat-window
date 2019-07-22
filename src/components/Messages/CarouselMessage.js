@@ -36,7 +36,7 @@ class CarouselItem extends Component {
 }
 
 const CarouselMessage = (props) => {
-  const CarouselList = props.data.map((item, i) => <CarouselItem {...item} key={i} />)
+  const CarouselList = props.data.map((item, i) => <CarouselItem {...item} onCarouselClick={props.onCarouselClick} key={i} />)
   
   return (
     <div className = "sc-carousel">

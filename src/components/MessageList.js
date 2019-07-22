@@ -3,7 +3,6 @@ import Message from './Messages'
 import Typing from './Typing'
 
 class MessageList extends Component {
-
   componentDidUpdate(prevProps, prevState) {
     this.scrollList.scrollTop = this.scrollList.scrollHeight;
   }
