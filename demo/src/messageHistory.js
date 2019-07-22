@@ -37,7 +37,15 @@ export default [
             text: 'Select',
             payload: 'TRUBFAFKXF1000201'
         }]
-    }]
+    }, {
+      title: '2015 Audi TT 2.0T quattro Coupe AWD',
+      subtitle: 24650,
+      url: 'https://shiftcars1.imgix.net/content/con1A1hdlGiqB2HFQAy2fjDM9aGPMVjRdc8TAqcwyM8xfUj7FZ1O9y',
+      buttons: [{
+          text: 'Select',
+          payload: 'TRUBFAFKXF1000201'
+      }]
+  }]
 },
   {type: 'file', author: "me",
   data: {

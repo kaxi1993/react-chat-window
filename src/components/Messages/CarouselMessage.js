@@ -19,8 +19,7 @@ class CarouselItem extends Component {
 
     return (
       <div className='sc-carousel--item'>
-        <div className='sc-carousel--thumbnail'>
-          <img src={url} alt={title} className='sc-carousel--photo' />
+        <div className='sc-carousel--thumbnail' style={{ backgroundImage: `url(${url})` }}>
         </div>
         <div className='sc-carousel--info'>
           <div className='sc-carousel--title'>{title}</div>
