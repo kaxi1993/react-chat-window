@@ -33,6 +33,7 @@ class ChatWindow extends Component {
           />
           <MessageList
             messages={messageList}
+            onCarouselClicked={this.props.onCarouselClicked}
             imageUrl={this.props.agentProfile.imageUrl}
             typing={this.props.typing}
           />
