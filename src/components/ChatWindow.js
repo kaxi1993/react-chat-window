@@ -35,7 +35,7 @@ class ChatWindow extends Component {
             messages={messageList}
             onCarouselClick={this.props.onCarouselClick}
             imageUrl={this.props.agentProfile.imageUrl}
-            typing={this.props.typing}
+            showTypingIndicator={this.props.showTypingIndicator}
           />
           <UserInput
             onSubmit={this.onUserInputSubmit.bind(this)}
@@ -54,7 +54,7 @@ ChatWindow.propTypes = {
   onFilesSelected: PropTypes.func,
   onUserInputSubmit: PropTypes.func.isRequired,
   showEmoji: PropTypes.bool,
-  typing: PropTypes.bool
+  showTypingIndicator: PropTypes.bool
 }
 
 export default ChatWindow;

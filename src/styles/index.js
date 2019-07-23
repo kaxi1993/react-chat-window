@@ -6,4 +6,4 @@ import './message.css';
 import './carousel.css';
 import './user-input.css';
 import './popup-window.css';
-import './typing.css';
+import './typing-indicator.css';

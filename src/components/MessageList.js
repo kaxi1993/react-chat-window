@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Message from './Messages'
-import Typing from './Typing'
+
+import Message from './Messages';
+import TypingIndicator from './TypingIndicator';
 
 class MessageList extends Component {
   componentDidUpdate(prevProps, prevState) {
@@ -13,7 +14,7 @@ class MessageList extends Component {
         {this.props.messages.map((message, i) => {
           return <Message message={message} onCarouselClick={this.props.onCarouselClick} key={i} />
         })}
-        {this.props.typing && <Typing />}
+        {this.props.showTypingIndicator && <TypingIndicator />}
       </div>)
   }
 }
