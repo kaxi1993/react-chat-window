@@ -75,6 +75,9 @@ class Demo extends Component {
     })
   }
 
+  _onCarouselClick(event) {
+  }
+
   render() {
     return <div>
       <Header />
@@ -90,6 +93,7 @@ class Demo extends Component {
         }}
         onMessageWasSent={this._onMessageWasSent.bind(this)}
         onFilesSelected={this._onFilesSelected.bind(this)}
+        onCarouselClick={this._onCarouselClick.bind(this)}
         messageList={this.state.messageList}
         newMessagesCount={this.state.newMessagesCount}
         handleClick={this._handleClick.bind(this)}

@@ -18,6 +18,35 @@ export default [
   {type: 'text', author: "me", data: { text: "No forget the story. "} },
   {type: 'text', author: "them", data: { text: "You've got to have a story."} },
   {type: 'emoji', author: "me", data: { emoji: "😋"} },
+  {
+    author: 'shift',
+    type: 'carousel',
+    data: [{
+        title: '2016 Mercedes-Benz CLS-Class CLS 550',
+        subtitle: 43750,
+        url: 'https://static.cargurus.com/images/forsale/2019/03/19/17/38/2016_mercedes-benz_cls-class-pic-7933421567487198676-1024x768.jpeg',
+        buttons: [{
+            text: 'Select',
+            payload: 'WDDLJ7DB9GA177073'
+        }]
+    }, {
+        title: '2015 Audi TT 2.0T quattro Coupe AWD',
+        subtitle: 24650,
+        url: 'https://static.cargurus.com/images/forsale/2019/06/23/18/07/2015_audi_tt-pic-5185657677239127894-1024x768.jpeg',
+        buttons: [{
+            text: 'Select',
+            payload: 'TRUBFAFKXF1000201'
+        }]
+    }, {
+      title: '2015 Audi TT 2.0T quattro Coupe AWD',
+      subtitle: 24650,
+      url: 'https://shiftcars1.imgix.net/content/con1A1hdlGiqB2HFQAy2fjDM9aGPMVjRdc8TAqcwyM8xfUj7FZ1O9y',
+      buttons: [{
+          text: 'Select',
+          payload: 'TRUBFAFKXF1000201'
+      }]
+  }]
+},
   {type: 'file', author: "me",
   data: {
     url: monsterImgUrl,

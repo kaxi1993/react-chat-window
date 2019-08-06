@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
+
 import TextMessage from './TextMessage'
 import EmojiMessage from './EmojiMessage'
 import FileMessage from './FileMessage'
+import CarouselMessage from './CarouselMessage'
+
 import chatIconUrl from './../../assets/chat-icon.svg'
 
 
@@ -15,6 +18,8 @@ class Message extends Component {
         return <EmojiMessage {...this.props.message} />
       case 'file':
         return <FileMessage {...this.props.message} />
+      case 'carousel':
+        return <CarouselMessage {...this.props.message} onCarouselClick={this.props.onCarouselClick} />
       default:
         console.error(`Attempting to load message with unsupported file type '${type}'`)
     }

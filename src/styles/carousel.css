@@ -1,0 +1,46 @@
+.sc-carousel {
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    margin-bottom: 10px;
+    padding-bottom: 25px;
+}
+
+.sc-carousel--item {
+    padding-right: 10px;
+}
+
+.sc-carousel--thumbnail {
+    width: 200px;
+    height: 140px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.sc-carousel--info {
+    padding-top: 10px;
+}
+
+.sc-carousel--title {
+    padding-bottom: 5px;
+    font-size: 13px;
+}
+
+.sc-carousel--subtitle {
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sc-carousel--actions {
+    text-align: center;
+}
+
+.sc-carousel--action {
+    color: #0084ff;
+    font-weight: 500;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

@@ -56,6 +56,7 @@ class Launcher extends Component {
           messageList={this.props.messageList}
           onUserInputSubmit={this.props.onMessageWasSent}
           onFilesSelected={this.props.onFilesSelected}
+          onCarouselClick={this.props.onCarouselClick}
           agentProfile={this.props.agentProfile}
           isOpen={isOpen}
           onClose={this.handleClick.bind(this)}
@@ -79,6 +80,7 @@ const MessageCount = (props) => {
 Launcher.propTypes = {
   onMessageWasReceived: PropTypes.func,
   onMessageWasSent: PropTypes.func,
+  onCarouselClick: PropTypes.func,
   newMessagesCount: PropTypes.number,
   isOpen: PropTypes.bool,
   handleClick: PropTypes.func,
