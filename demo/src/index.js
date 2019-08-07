@@ -18,7 +18,7 @@ class Demo extends Component {
     this.state = {
       messageList: messageHistory,
       newMessagesCount: 0,
-      isOpen: false,
+      isOpen: true,
       isTyping: false
     };
   }
