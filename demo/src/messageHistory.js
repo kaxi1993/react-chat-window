@@ -113,33 +113,6 @@ export default [{
     }
   },
   {
-    type: 'emoji',
-    author: "me",
-    data: {
-      emoji: "😋"
-    }
-  },
-  // {
-  //   type: 'text',
-  //   author: "them",
-  //   data: {
-  //     text: 'In which car detail you are interested in?',
-  //     quickReplies: [{
-  //       title: 'Engine',
-  //       payload: 'Engine'
-  //     }, {
-  //       title: 'Horsepower',
-  //       payload: 'Horsepower'
-  //     }, {
-  //       title: 'Gasoline',
-  //       payload: 'Gasoline'
-  //     }, {
-  //       title: 'Torque',
-  //       payload: 'Torque'
-  //     }]
-  //   }
-  // },
-  {
     author: 'shift',
     type: 'carousel',
     data: [{
@@ -167,5 +140,25 @@ export default [{
         payload: 'TRUBFAFKXF1000201'
       }]
     }]
+  },
+  {
+    type: 'text',
+    author: "them",
+    data: {
+      text: 'In which car detail you are interested in?',
+      quickReplies: [{
+        title: 'Engine',
+        payload: 'Engine'
+      }, {
+        title: 'Horsepower',
+        payload: 'Horsepower'
+      }, {
+        title: 'Gasoline',
+        payload: 'Gasoline'
+      }, {
+        title: 'Torque',
+        payload: 'Torque'
+      }]
+    }
   }
 ]

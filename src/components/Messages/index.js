@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
 import TextMessage from './TextMessage'
-import EmojiMessage from './EmojiMessage'
 import FileMessage from './FileMessage'
 import CarouselMessage from './CarouselMessage'
 
@@ -14,8 +13,6 @@ class Message extends Component {
     switch(type) {
       case 'text':
         return <TextMessage {...this.props.message} />
-      case 'emoji':
-        return <EmojiMessage {...this.props.message} />
       case 'file':
         return <FileMessage {...this.props.message} />
       case 'carousel':

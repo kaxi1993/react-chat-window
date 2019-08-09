@@ -17,10 +17,7 @@
     "gh:publish": "nwb build-demo && gh-pages -d demo/dist"
   },
   "dependencies": {
-    "emoji-js": "3.2.2",
-    "gh-pages": "^1.2.0",
     "prop-types": "15.5.10",
-    "react-highlight.js": "1.0.5",
     "react-linkify": "^0.2.1",
     "socket.io-client": "2.0.3"
   },

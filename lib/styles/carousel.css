@@ -1,9 +1,52 @@
+.sc-carousel-container {
+    position: relative;
+}
+
 .sc-carousel {
     display: flex;
     align-items: center;
-    overflow-x: scroll;
+    overflow-x: auto;
     margin-bottom: 10px;
     padding-bottom: 25px;
+    width: 255px;
+    scrollbar-width: none;
+}
+
+.sc-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.sc-carousel--arrow {
+    position: absolute;
+    top: 80px;
+    background-color: #ffffff;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #dddfe2;
+    cursor: pointer;
+}
+
+.sc-carousel--arrow-left {
+    left: 0px;
+    border-radius: 0 3px 3px 0;
+}
+
+.sc-carousel--arrow-right {
+    right: 0px;
+    border-radius: 3px 0 0 3px;
+}
+
+.sc-carousel--arrow-icon {
+    position: relative;
+    left: 5px;
+    width: 17px;
+    height: 17px;
+}
+
+.sc-carousel--arrow-icon-path {
+    fill: #69707f;
 }
 
 .sc-carousel--item {
@@ -37,6 +80,7 @@
 }
 
 .sc-carousel--action {
+    background-color: #ffffff;
     color: #0084ff;
     font-weight: 500;
     font-size: 13px;

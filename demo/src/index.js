@@ -6,7 +6,6 @@ import TestArea from './TestArea';
 import Header from './Header';
 import Footer from './Footer';
 import monsterImgUrl from "./../assets/monster.png";
-import Highlight from "react-highlight.js";
 import './../assets/styles'
 
 
@@ -98,7 +97,6 @@ class Demo extends Component {
         newMessagesCount={this.state.newMessagesCount}
         handleClick={this._handleClick.bind(this)}
         isOpen={this.state.isOpen}
-        showEmoji
         showTypingIndicator={this.state.isTyping}
       />
       <img className="demo-monster-img" src={monsterImgUrl} />

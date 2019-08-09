@@ -60,8 +60,13 @@
   top: 70px;
   display: flex;
   align-items: center;
-  overflow-x: scroll;
+  overflow-x: auto;
   margin-bottom: 10px;
+  scrollbar-width: none;
+}
+
+.sc-message--quick-reply-container::-webkit-scrollbar {
+  display: none;
 }
 
 .sc-message--quick-reply {
@@ -73,9 +78,6 @@
   cursor: pointer;
 }
 
-.sc-message--emoji {
-  font-size: 40px;
-}
 
 .sc-message--file {
   background: white;

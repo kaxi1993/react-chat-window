@@ -8,8 +8,8 @@
     overflow-x: auto;
     margin-bottom: 10px;
     padding-bottom: 25px;
-    scrollbar-width: none;
     width: 255px;
+    scrollbar-width: none;
 }
 
 .sc-carousel::-webkit-scrollbar {
