@@ -9,7 +9,7 @@
     margin-bottom: 10px;
     padding-bottom: 25px;
     width: 255px;
-    scrollbar-width: none;
+    scroll-behavior: smooth;
 }
 
 .sc-carousel::-webkit-scrollbar {
